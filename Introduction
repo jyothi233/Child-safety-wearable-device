@@ -1,0 +1,22 @@
+Child safety wearable comes from the increasing need for safety for children in current times
+as there could be scenarios of the child getting lost in the major crowded areas and child
+getting into harmful environment . This paper focuses on the key aspect that lost child can be
+helped by the people around the child and can play a significant role in the child's safety until
+reunited with the parents. Most of the wearable available today are focused on providing the
+location, activity, etc. of the child to the parents via Wi-Fi and Bluetooth[18]which seems to be
+unreliable source of communication. Therefore it is intended to use SMS as the mode of
+communication between the parent and child's wearable device, as this has fewer chances of
+failing compared to Wi-Fi and Bluetooth. This project will be running on Arduino Uno
+microcontroller board based on the ATmega328P, and the functions of sending and receiving
+SMS,calls and connecting to the internet which is provided by the Arduino GSM shield using
+the GSM network. Also, additional modules employed which will provide the current location
+of the child to the parents via SMS and warns the parent through SMS if any fire accident
+occurs or any combustible gas is around the child . The second measure added is SOS Light
+indicator that will be programmed with Arduino UNO board to display the SOS signal using
+Morse code. The different modules stay enclosed in a custom designed 3D printed case.
+Therefore alerting the people around the child that the child is in some distress and needs
+assistance as the SOS signal is universally known as the signal for help needed. Additionally,
+the wearable comes equipped with a distress alarm buzzer which sets to active by sending the
+SMS keyword "BUZZ" to the wearable. Hence the buzzer is loud and can be heard by the
+parent from very considerable distance. Also the parents via SMS can receive accurate
+coordinates of the child, which can help them locate the child with pinpoint accuracy.
